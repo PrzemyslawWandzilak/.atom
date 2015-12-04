@@ -31,3 +31,4 @@
   'ctrl-o':     'cursor-history:prev'
   'ctrl-cmd-i': 'cursor-history:next-within-editor'
   'ctrl-cmd-o': 'cursor-history:prev-within-editor'
+  'ctrl-shift-q': 'revert-buffer:revert'  
