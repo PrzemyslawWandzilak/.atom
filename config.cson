@@ -1,0 +1,11 @@
+"*":
+  "exception-reporting":
+    userId: "5ccfa71f-62da-43a6-9086-d030bc62f762"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    fontSize: 15
+  "vim-mode": {}
+  minimap: {}
