@@ -9,3 +9,4 @@
     fontSize: 15
   "vim-mode": {}
   minimap: {}
+  "atom-cscope": {}
