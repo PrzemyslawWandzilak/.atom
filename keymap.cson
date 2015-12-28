@@ -35,3 +35,9 @@
   'ctrl-shift-q': 'revert-buffer:revert'
   'ctrl-shift-o': 'symbols-view:toggle-project-symbols'
   'ctrl-shift-r': 'fuzzy-finder:toggle-file-finder'
+
+'atom-text-editor.vim-mode':
+  'ctrl-c':     'core:copy'
+
+'.platform-win32 atom-text-editor':
+  'ctrl-r':     'core:redo'
