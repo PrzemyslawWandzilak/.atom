@@ -1,11 +1,9 @@
 "*":
+  core:
+    autoHideMenuBar: true
+  editor:
+    showInvisibles: true
   "exception-reporting":
-    userId: "5ccfa71f-62da-43a6-9086-d030bc62f762"
+    userId: "a0069527-ecc8-96f8-efb4-60e022327823"
   welcome:
     showOnStartup: false
-  core: {}
-  editor:
-    invisibles: {}
-  "vim-mode": {}
-  minimap: {}
-  "atom-cscope": {}
