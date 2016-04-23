@@ -1,0 +1,164 @@
+{
+  "name": "linter-pylama",
+  "main": "./lib/init",
+  "version": "0.2.9",
+  "description": "Lint python on the fly, using pylama",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomLinter/linter-pylama.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "temp": "^0.8.3",
+    "xregexp": "~3.1.0"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "readme": "# linter-pylama\n\nThis package will lint your opened Python-files in Atom, using [pylama](https://github.com/klen/pylama#-pylama) (wrapper for pylint, pep8, pep257, pyflakes and mccabe).\n\n![img](https://raw.githubusercontent.com/AtomLinter/linter-pylama/master/in_action.gif)\n\n## Installation\n\n### With internal Pylama wrapper\n* `$ apm install linter-pylama`\n\n### With external Pylama wrapper\n* Install [pylama](https://github.com/klen/pylama#instalation).\n* If you need to `pylint` linter, you should install [pylama_pylint](https://github.com/klen/pylama_pylint#installation) module.\n* `$ apm install linter-pylama`\n\n## Other available linters\nThere are other linters available - take a look at the linters [mainpage](https://github.com/AtomLinter/Linter).\n\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/AtomLinter/linter-pylama/issues"
+  },
+  "homepage": "https://github.com/AtomLinter/linter-pylama#readme",
+  "_id": "linter-pylama@0.2.9",
+  "_shasum": "5687b13093eb5635c66673da89268307e38fcdf1",
+  "_resolved": "file:../d-116323-10669-11n7985/package.tgz",
+  "_from": "../d-116323-10669-11n7985/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "atom-package-deps",
+        "version": "4.0.1",
+        "path": "node_modules/atom-package-deps/lib/index.js"
+      },
+      {
+        "name": "atom-package-path",
+        "version": "1.1.0",
+        "path": "node_modules/atom-package-deps/node_modules/atom-package-path/lib/index.js"
+      },
+      {
+        "name": "sb-callsite",
+        "version": "1.1.2",
+        "path": "node_modules/atom-package-deps/node_modules/atom-package-path/node_modules/sb-callsite/lib/main.js"
+      },
+      {
+        "name": "temp",
+        "version": "0.8.3",
+        "path": "node_modules/temp/lib/temp.js"
+      },
+      {
+        "name": "os-tmpdir",
+        "version": "1.0.1",
+        "path": "node_modules/temp/node_modules/os-tmpdir/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.2.8",
+        "path": "node_modules/temp/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "xregexp",
+        "version": "3.1.0",
+        "path": "node_modules/xregexp/src/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/init.coffee",
+        "lib/linter-pylama.coffee"
+      ],
+      ".js": [
+        "node_modules/atom-package-deps/lib/helpers.js",
+        "node_modules/atom-package-deps/lib/index.js",
+        "node_modules/atom-package-deps/lib/view.js",
+        "node_modules/atom-package-deps/node_modules/atom-package-path/lib/index.js",
+        "node_modules/atom-package-deps/node_modules/atom-package-path/node_modules/sb-callsite/lib/main.js",
+        "node_modules/temp/examples/grepcount.js",
+        "node_modules/temp/examples/pdfcreator.js",
+        "node_modules/temp/lib/temp.js",
+        "node_modules/temp/no_cleanup.js",
+        "node_modules/temp/no_cleanup_on_exit.js",
+        "node_modules/temp/no_cleanup_on_exit.spec.js",
+        "node_modules/temp/node_modules/os-tmpdir/index.js",
+        "node_modules/temp/node_modules/rimraf/bin.js",
+        "node_modules/temp/node_modules/rimraf/rimraf.js",
+        "node_modules/xregexp/src/addons/build.js",
+        "node_modules/xregexp/src/addons/matchrecursive.js",
+        "node_modules/xregexp/src/addons/unicode-base.js",
+        "node_modules/xregexp/src/addons/unicode-blocks.js",
+        "node_modules/xregexp/src/addons/unicode-categories.js",
+        "node_modules/xregexp/src/addons/unicode-properties.js",
+        "node_modules/xregexp/src/addons/unicode-scripts.js",
+        "node_modules/xregexp/src/index.js",
+        "node_modules/xregexp/src/xregexp.js"
+      ],
+      ".json": [
+        "node_modules/atom-package-deps/node_modules/atom-package-path/node_modules/sb-callsite/package.json",
+        "node_modules/atom-package-deps/node_modules/atom-package-path/package.json",
+        "node_modules/atom-package-deps/package.json",
+        "node_modules/temp/node_modules/os-tmpdir/package.json",
+        "node_modules/temp/node_modules/rimraf/package.json",
+        "node_modules/temp/package.json",
+        "node_modules/xregexp/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "atom-package-deps": "^4.0.1",
+          "temp": "^0.8.3",
+          "xregexp": "~3.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-package-deps/lib",
+          "node_modules/atom-package-deps"
+        ],
+        "dependencies": {
+          "atom-package-path": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-package-deps/node_modules/atom-package-path/lib",
+          "node_modules/atom-package-deps/node_modules/atom-package-path",
+          "node_modules/atom-package-deps/node_modules/atom-package-path/spec"
+        ],
+        "dependencies": {
+          "sb-callsite": "^1.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/examples",
+          "node_modules/temp/lib",
+          "node_modules/temp",
+          "node_modules/temp/test"
+        ],
+        "dependencies": {
+          "os-tmpdir": "^1.0.0",
+          "rimraf": "~2.2.6"
+        }
+      }
+    ]
+  }
+}
