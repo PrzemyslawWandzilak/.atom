@@ -32,7 +32,7 @@
   'ctrl-r':     'core:redo'
   'ctrl-cmd-i': 'cursor-history:next-within-editor'
   'ctrl-cmd-o': 'cursor-history:prev-within-editor'
-  'ctrl-shift-q': 'revert-buffer:revert'
+  'ctrl-shift-e': 'revert-buffer:revert'
   'ctrl-shift-o': 'symbols-view:toggle-project-symbols'
   'ctrl-shift-p': 'fuzzy-finder:toggle-file-finder'
   'ctrl-shift-f': 'project-find:show'
@@ -40,15 +40,18 @@
   'ctrl-alt-shift-t': 'nuclide-quick-open:find-anything-via-omni-search'
 
 'atom-text-editor':
+  'ctrl-shift-e': 'revert-buffer:revert'
   'ctrl-alt-shift-f': 'find-and-replace:show'
   'ctrl-r':     'core:redo'
 
 'atom-text-editor.vim-mode':
+  'ctrl-shift-e': 'revert-buffer:revert'
   'ctrl-c':     'core:copy'
 
 '.platform-win32':
   'ctrl-r':     'core:redo'
 
 '.platform-linux':
+  'ctrl-shift-e': 'revert-buffer:revert'
   'ctrl-r':     'core:redo'
   'ctrl-p':     'fuzzy-finder:toggle-file-finder'
