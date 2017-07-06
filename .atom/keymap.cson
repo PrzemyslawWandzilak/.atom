@@ -44,9 +44,12 @@
   'ctrl-alt-shift-f': 'find-and-replace:show'
   'ctrl-r':     'core:redo'
 
-'atom-text-editor.vim-mode':
+'atom-text-editor.vim-mode-plus':
   'ctrl-shift-e': 'revert-buffer:revert'
   'ctrl-c':     'core:copy'
+
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'j': 'exit-insert-mode-if-preceded-by-j'
 
 '.platform-win32':
   'ctrl-r':     'core:redo'
